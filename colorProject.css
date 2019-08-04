@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #232323;
+}
+
+h1{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.middle{
+    text-align: center;
+    height: 30px;
+    background-color: white;
+}
+
+.middle button{
+    background-color: white;
+    border: none;
+    outline: 0;
+    font-weight: 700;
+    height: 100%;
+    color: steelblue;
+    transition: all 0.3s;
+}
+
+.middle button:hover{
+    color: white;
+    background-color: steelblue;
+}
+
+.middle span{
+    width: 20%;
+    display: inline-block;
+}
+
+.main_container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.circle{
+    display: block;
+    width: 30%;
+    background: white;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+}  
+
+.subMeny{
+    display: block;
+}
